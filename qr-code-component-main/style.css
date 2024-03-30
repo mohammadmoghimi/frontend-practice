@@ -1,0 +1,51 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box  ;
+}
+
+.container{
+    width: 100% ;
+    min-height: 100vh ;
+    background: hsl(212, 45%, 89%) ;
+    padding:10px ;
+
+}
+
+.qrcode{
+    width:100% ;
+    max-width: 380px;   
+    background: hsl(0, 0%, 100%);
+    margin: 100px auto 20px;
+    padding:40px 30px 70px ;
+    border-radius: 20px;
+}
+.qrcode h2 {
+    margin-top: 30px;
+    display: flex ;
+    align-items :center ;
+    justify-content: center;
+    margin-bottom:20px ;
+    text-align: center;
+
+}
+
+img{
+    width:100% ;
+    max-width: 380px; 
+    border-radius: 10px;
+}
+
+.container qrcode img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+p{
+    display: flex ;
+    align-items :center ;
+    justify-content: center;
+    margin-bottom:20px ;
+    text-align: center;
+}
