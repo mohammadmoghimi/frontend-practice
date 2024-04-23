@@ -1,0 +1,10 @@
+<div class="toolbar">
+    <div class="left">
+        <span class="title"> {{ title }}</span>
+    </div>
+    <div class="right">
+        <ng-container *ngFor="let link of links">
+            <a href="{{link.url}}">{{link.name}}</a>
+        </ng-container>
+    </div>
+</div>

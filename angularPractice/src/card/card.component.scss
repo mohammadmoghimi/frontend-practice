@@ -1,0 +1,45 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: cover;
+  }
+  
+  .header-content {
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-footer {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+  }
+  
